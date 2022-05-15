@@ -1,0 +1,31 @@
+.contact {
+    &_list {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        margin-left: auto;
+    }
+
+    &_link:not(:first-child) {
+        margin-left: 50px;
+    }
+
+    &_link-item {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.142;
+        letter-spacing: 0.02em;
+        color: var(--fourth-color);
+        display: flex;
+        align-items: center;
+        transition: color 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &_link-svg {
+        margin-right: 10px;
+        fill: var(--fourth-color);
+        transition: fill 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}

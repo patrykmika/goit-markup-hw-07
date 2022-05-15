@@ -1,0 +1,41 @@
+.footer {
+    &_contact-social {
+        margin-left: 70px;
+    }
+
+    &_contact-description {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.142;
+        letter-spacing: 0.03em;
+        color: var(--second-color)
+    }
+
+    &_contact-list-svg {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    &_contact-item-svg:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    &_contact-link-svg {
+        width: 44px;
+        height: 44px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        fill: var(--second-color);
+        transition: fill 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    }
+
+    &_list-svg {
+        width: 20px;
+        height: 20px;
+    }
+}

@@ -1,0 +1,32 @@
+.description {
+    &_list {
+        display: flex;
+    }
+
+    &_item-main {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.142;
+        letter-spacing: 0.03em;
+    }
+
+    &_item:not(:first-child) {
+        padding-left: 30px;
+    }
+
+    &_item-secondary {
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        color: var(--fourth-color);
+    }
+
+    &_item-svg {
+        margin-bottom: 30px;
+        background: #F5F4FA;
+        border-radius: 4px;
+        width: 270px;
+        height: 120px;
+        padding: 25px 100px;
+    }
+}

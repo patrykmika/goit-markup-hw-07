@@ -1,0 +1,25 @@
+@import "./components/visually-hidden";
+@import "./utils/variables";
+@import "./components/backdrop";
+@import "./components/components-focus&hover";
+@import "./components/components-transition";
+
+@import "./base/common";
+
+@import "./layout/header";
+@import "./layout/header-logo-navigation";
+@import "./layout/header-contact";
+@import "./layout/left-footer";
+@import "./layout/mid-footer";
+@import "./layout/right-footer";
+@import "./layout/modal";
+
+@import "./layout/buisness";
+@import "./layout/description";
+@import "./layout/about";
+@import "./layout/ourteam";
+@import "./layout/ourclients";
+@import "./layout/modal";
+
+@import "./layout/button-portfolio";
+@import "./layout/app-portfolio";

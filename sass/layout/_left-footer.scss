@@ -1,0 +1,48 @@
+.footer {
+    background-color: var(--sixth-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &_adress {
+        display: flex;
+    }
+
+    &_contact-logo {
+        font-family: var(--second-font);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.192;
+        letter-spacing: 0.03em;
+        color: var(--third-color);
+        display: flex;
+        padding-bottom: 20px;
+    }
+
+    &_contact-navigation {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        color: var(--second-color);
+        display: flex;
+        padding-bottom: 9px;
+        flex-direction: column;
+        transition: color 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &_contact-link {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        display: flex;
+        transition: color 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &_contact-item:not(:last-child) {
+        padding-bottom: 9px;
+    }
+}

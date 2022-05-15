@@ -1,0 +1,56 @@
+.footer_contact-newsletter {
+    margin-left: 78px;
+}
+
+.newsletter {
+    &_form {
+        display: flex;
+    }
+
+    &_description {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.142;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--second-color);
+        margin-top: 0px;
+    }
+
+    &_input {
+        width: 358px;
+        height: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        background-color: #2F303A;
+        padding-left: 16px;
+        color: var(--second-color)
+    }
+
+    &_btn {
+        position: relative;
+        width: 200px;
+        height: 50px;
+        background-color: var(--third-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+        margin: 0;
+        padding-right: 28px;
+        margin-left: 10px;
+    }
+
+    &_svg {
+        bottom: 13px;
+        position: absolute;
+        right: 28px;
+    }
+}
